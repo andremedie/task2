@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        link(rel="stylesheet", href="style.css")
+        title Weather Report
+    body
+    div.textWindow
+        h1 What is the weather like today?
+
+        h3 Search city:
+        include get_forms.pug
+        if(name) 
+            h1="City: " + name
+            h2="Temperature: " + temp + " degrees Celsius"
+            p="Feels like " + temp2 + " degrees Celsius"
+            h2="Weather looks like: " + description
+            h4="Important sea-captain info: " + lon + " Longitude and " + lat + " Latitude"
+        

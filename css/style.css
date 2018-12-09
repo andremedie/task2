@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+  background: url(weather.jpg);
+  background-repeat: no-repeat;
+}
+
+.textWindow {
+    text-align: center;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.488);
+    padding: 25px;
+    margin: 25px;
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,42 @@
+{
+  "coord": {
+    "lon": 12.69,
+    "lat": 56.05
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 274.68,
+    "pressure": 1027,
+    "humidity": 91,
+    "temp_min": 273.15,
+    "temp_max": 277.15
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 4.6,
+    "deg": 110
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1543416600,
+  "sys": {
+    "type": 1,
+    "id": 1797,
+    "message": 0.0051,
+    "country": "SE",
+    "sunrise": 1543389124,
+    "sunset": 1543416136
+  },
+  "id": 2706767,
+  "name": "Helsingborg",
+  "cod": 200
+}
